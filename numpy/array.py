@@ -40,5 +40,6 @@ print("index can use condition a[a < 5]: ",a[a < 5])
 a_sum = np.array([[1,1],[2,2]])
 print('sum over the axis of row', a_sum.sum(axis=0) )
 print('sum over the axis of column', a_sum.sum(axis=1) )
+print('multiply', a_sum * 2)
 
 
